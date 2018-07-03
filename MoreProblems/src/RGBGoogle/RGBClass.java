@@ -41,11 +41,9 @@ public class RGBClass {
         answer.addAll(red);
         answer.addAll(blue);
         answer.addAll(green);
-        answer.toArray();
+       answer.toArray(array);
 
-        for(int i=0;i<answer.toArray().length;i++){
-            System.out.print(answer.toArray()[i]);
-        }
+
 
 
         return array;
