@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 public class Class {
 
-    public void StringCompression(String[] array){
+    void StringCompression(String... array){
 
         String currentCharacter = null;
         
